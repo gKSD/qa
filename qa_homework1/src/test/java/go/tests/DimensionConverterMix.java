@@ -48,8 +48,8 @@ public class DimensionConverterMix
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
-    /*
-    @Test
+
+    /*@Test
     public void test1()
     //проверка на правильность заполнения  и отрабатывания подмеса при вводе данных в основной поисковиковой строке
     {
@@ -57,11 +57,15 @@ public class DimensionConverterMix
         ResultPageAfterGoMailRuSearch result = new GoMailRuPage(this.driver).getSearchForm().runSearch("3 кг в фунтах");
         DimensionConvertor dimensionConvertor = result.getDimensionConvertor();
 
+        System.out.println(dimensionConvertor.getConvertorTitle());
+
         Assert.assertTrue(dimensionConvertor.getMixOvalValue().contains("6,61387"));
         Assert.assertTrue(dimensionConvertor.getMixInputValue().contains("3"));
         Assert.assertTrue(dimensionConvertor.getMixLeftTypeValue().contains("килограмма"));
         Assert.assertTrue(dimensionConvertor.getMixRightTypeValue().contains("фунта"));
         Assert.assertTrue(dimensionConvertor.getMixConverterSpanValue().contains("вес"));
+
+        Assert.assertEquals(dimensionConvertor.getConvertorTitle(), "Конвертер величин:вес" );
     }
 
     @Test
@@ -210,7 +214,7 @@ public class DimensionConverterMix
     }
     */
 
-    @Test
+    /*@Test
     public void test4()
     //проверка на ввод больших значений
     {
@@ -222,6 +226,66 @@ public class DimensionConverterMix
         dimensionConvertor.enterTextIntoMixInput("1000000");
 
         System.out.println(dimensionConvertor.getMixOvalValue());
+
+        String string = dimensionConvertor.getMixOvalValue();
+        int index = string.indexOf("×");
+        System.out.println("**" + index + "**");
+        System.out.println("**" + string.charAt(index + 3) + "**");
+    }*/
+
+    /*@Test
+    public void test5()
+    //проверка на ввод больших значений
+    {
+        ResultPageAfterGoMailRuSearch result = new GoMailRuPage(this.driver).getSearchForm().runSearch("конвертер величин кг в фунты");
+        DimensionConvertor dimensionConvertor = result.getDimensionConvertor();
+
+        Assert.assertTrue(dimensionConvertor.getMixLeftTypeValue().contains("килограмм"));
+        Assert.assertTrue(dimensionConvertor.getMixRightTypeValue().contains("фунта"));
+
+        dimensionConvertor.changeConvertorFields();
+
+        Assert.assertTrue(dimensionConvertor.getMixLeftTypeValue().contains("фунт"));
+        Assert.assertTrue(dimensionConvertor.getMixRightTypeValue().contains("килограмма"));
+
+    }
+    */
+
+    /*@Test
+    public void test6()
+    //проверка на валидность данных, введенных в подмес
+    {
+        ResultPageAfterGoMailRuSearch result = new GoMailRuPage(this.driver).getSearchForm().runSearch("конвертер величин кг в фунты");
+        DimensionConvertor dimensionConvertor = result.getDimensionConvertor();
+
+        String style = dimensionConvertor.getMixInputClass("color");
+        Assert.assertEquals(style, "rgba(0, 0, 0, 1)");
+
+        dimensionConvertor.clearMixInput();
+        dimensionConvertor.enterTextIntoMixInput("пять");
+
+        style = dimensionConvertor.getMixInputClass("color");
+        Assert.assertEquals(style, "rgba(255, 0, 0, 1)");
+
+        dimensionConvertor.clearMixInput();
+        dimensionConvertor.enterTextIntoMixInput("-1");
+
+        style = dimensionConvertor.getMixInputClass("color");
+        Assert.assertEquals(style, "rgba(255, 0, 0, 1)");
+    }*/
+
+    @Test
+    public void test7()
+    //проверка на валидность данных, введенных в подмес
+    {
+        ResultPageAfterGoMailRuSearch result = new GoMailRuPage(this.driver).getSearchForm().runSearch("конвертер величин кг в фунты");
+        DimensionConvertor dimensionConvertor = result.getDimensionConvertor();
+
+        String current = 
+
+        dimensionConvertor.changeDimensionType("length");
+
+        //Assert.assertEquals(style, "rgba(255, 0, 0, 1)");
     }
 
     //@AfterTest

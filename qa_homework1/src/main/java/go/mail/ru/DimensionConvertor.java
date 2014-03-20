@@ -54,6 +54,11 @@ public class DimensionConvertor {
         return driver.findElement(By.xpath(xpath));
     }
 
+    public WebElement getConvertorFieldsChanger()
+    {
+        return driver.findElement(By.id("change_conv"));
+    }
+
     public String getMixInputValue()
     {
         return getMixInput().getAttribute("value");
@@ -88,6 +93,34 @@ public class DimensionConvertor {
     public DimensionConvertor clearMixInput()
     {
         getMixInput().clear();
+        return this;
+    }
+
+    public DimensionConvertor changeConvertorFields()
+    {
+        getConvertorFieldsChanger().click();
+        return this;
+    }
+
+    public String getMixInputAttributeValue(String string)
+    {
+        return getMixInput().getAttribute(string);
+    }
+    public String getMixInputClass(String string)
+    {
+        //System.out.println(string);
+        return getMixInput().getCssValue(string);
+    }
+
+    public String getConvertorTitle()
+    {
+        return driver.findElement(By.cssSelector(".smack-converter__title")).getText();
+    }
+
+    public DimensionConvertor changeDimensionType(String type)
+    {
+        driver.findElement(By.cssSelector("#measureSelector .smack-converter__title-span")).click();
+        driver.findElement(By.cssSelector("#measureSelector li[data-measure=" + type + "] span")).click();
         return this;
     }
 }
