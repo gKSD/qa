@@ -67,7 +67,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="21" selection-start="1910" selection-end="1910" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
+            <state line="15" column="25" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
@@ -76,7 +76,7 @@
       <file leaf-file-name="qa_homework1.iml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_homework1.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
+            <state line="16" column="29" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
@@ -94,21 +94,26 @@
       <file leaf-file-name="SearchForm.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/go/mail/ru/SearchForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="5" selection-start="1169" selection-end="1169" vertical-scroll-proportion="-215.0" vertical-offset="335" max-vertical-offset="885">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="42" column="50" selection-start="969" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="178" max-vertical-offset="855">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResultPageAfterGoMailRuSearch.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ResultPageAfterGoMailRuSearch.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/go/mail/ru/ResultPageAfterGoMailRuSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="21" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="22" column="0" selection-start="492" selection-end="492" vertical-scroll-proportion="0.49342105" vertical-offset="0" max-vertical-offset="1890">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DimensionConvertor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/go/mail/ru/DimensionConvertor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,19 +121,17 @@
       <file leaf-file-name="testng.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="46" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="5" column="0" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DimensionConverterMix.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DimensionConverterMix.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/go/tests/DimensionConverterMix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="5" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.76811594" vertical-offset="296" max-vertical-offset="1050">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="205" column="0" selection-start="8897" selection-end="8897" vertical-scroll-proportion="0.0" vertical-offset="2248" max-vertical-offset="3165">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -136,7 +139,7 @@
       <file leaf-file-name="name.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/name.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="15" column="0" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -155,19 +158,19 @@
         <option value="$PROJECT_DIR$/name.java" />
         <option value="$PROJECT_DIR$/src/main/java/GoMailRuPage.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/go/mail/ru/ResultPageAfterGoMailRuSearch.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/go/mail/ru/GoMailRuPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/go/mail/ru/SearchForm.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/go/mail/ru/ResultPageAfterGoMailRuSearch.java" />
         <option value="$PROJECT_DIR$/src/test/java/go/tests/DimensionConverterMix.java" />
+        <option value="$PROJECT_DIR$/src/main/java/go/mail/ru/DimensionConvertor.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="458" />
-    <option name="y" value="52" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="y" value="24" />
+    <option name="width" value="1920" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -299,7 +302,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tp-demo-selenium-testng/pom.xml" />
     <property name="options.lastSelected" value="appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -307,36 +310,7 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="TestNG./home/sofia/tp/testings/qa/qa_homework1/testng.xml (3)">
-    <configuration default="false" name="$PROJECT_DIR$/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="qa_homework1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="TestNG.DimensionConverterMix">
     <configuration default="false" name="$PROJECT_DIR$/testng.xml (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="qa_homework1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -405,6 +379,64 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DimensionConverterMix" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qa_homework1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="go.tests" />
+      <option name="MAIN_CLASS_NAME" value="go.tests.DimensionConverterMix" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DimensionConverterMix (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qa_homework1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="go.tests" />
+      <option name="MAIN_CLASS_NAME" value="go.tests.DimensionConverterMix" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -551,18 +583,20 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="TestNG./home/sofia/tp/testings/qa/qa_homework1/testng.xml" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG./home/sofia/tp/testings/qa/qa_homework1/testng.xml (1)" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG./home/sofia/tp/testings/qa/qa_homework1/testng.xml (2)" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG./home/sofia/tp/testings/qa/qa_homework1/testng.xml (3)" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="TestNG./home/sofia/tp/testings/qa/qa_homework1/testng.xml (1)" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG./home/sofia/tp/testings/qa/qa_homework1/testng.xml (2)" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG./home/sofia/tp/testings/qa/qa_homework1/testng.xml (3)" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.DimensionConverterMix" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.DimensionConverterMix (1)" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="TestNG./home/sofia/tp/testings/qa/qa_homework1/testng.xml (3)" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG./home/sofia/tp/testings/qa/qa_homework1/testng.xml (2)" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG./home/sofia/tp/testings/qa/qa_homework1/testng.xml (1)" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG./home/sofia/tp/testings/qa/qa_homework1/testng.xml" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.DimensionConverterMix" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.DimensionConverterMix (1)" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG./home/sofia/tp/testings/qa/qa_homework1/testng.xml (3)" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG./home/sofia/tp/testings/qa/qa_homework1/testng.xml (2)" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG./home/sofia/tp/testings/qa/qa_homework1/testng.xml (1)" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -580,7 +614,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="458" y="52" width="1400" height="1000" extended-state="0" />
+    <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -588,22 +622,22 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34946236" sideWeight="0.29285714" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296146" sideWeight="0.29322916" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31034482" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31034482" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34946236" sideWeight="0.7064286" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296146" sideWeight="0.70677084" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -643,6 +677,118 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="25" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_homework1.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="29" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/go/mail/ru/GoMailRuPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="35" selection-start="256" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/go/mail/ru/SearchForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="24" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/go/mail/ru/ResultPageAfterGoMailRuSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="54" selection-start="2099" selection-end="2112" vertical-scroll-proportion="0.0" vertical-offset="849" max-vertical-offset="1500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/go/tests/DimensionConverterMix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="16" selection-start="3051" selection-end="3051" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="2895">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/name.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_homework1.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="29" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/go/mail/ru/GoMailRuPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="35" selection-start="256" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/go/mail/ru/SearchForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="4" selection-start="625" selection-end="746" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/go/mail/ru/ResultPageAfterGoMailRuSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="47" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="1410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/go/tests/DimensionConverterMix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="22" selection-start="2248" selection-end="2248" vertical-scroll-proportion="0.0" vertical-offset="478" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/name.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="12" selection-start="2292" selection-end="2292" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="1065">
           <folding />
         </state>
@@ -669,9 +815,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/2.35.0/selenium-api-2.35.0.jar!/org/openqa/selenium/internal/SocketLock.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.68311197" vertical-offset="0" max-vertical-offset="527" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/qa_homework1.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
+        <state line="16" column="29" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
           <folding />
         </state>
       </provider>
@@ -685,16 +843,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="21" selection-start="1910" selection-end="1910" vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="1065">
+        <state line="15" column="25" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.5/testng-6.8.5.jar!/org/testng/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="46" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="51" column="0" selection-start="2478" selection-end="2478" vertical-scroll-proportion="1.2355849" vertical-offset="0" max-vertical-offset="2475" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/go/mail/ru/GoMailRuPage.java">
@@ -706,35 +862,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/go/mail/ru/SearchForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="5" selection-start="1169" selection-end="1169" vertical-scroll-proportion="-215.0" vertical-offset="335" max-vertical-offset="885">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/go/mail/ru/ResultPageAfterGoMailRuSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="21" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/2.35.0/selenium-api-2.35.0.jar!/org/openqa/selenium/internal/SocketLock.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.68311197" vertical-offset="0" max-vertical-offset="527">
+        <state line="42" column="50" selection-start="969" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="178" max-vertical-offset="855">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/go/tests/DimensionConverterMix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="5" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.76811594" vertical-offset="296" max-vertical-offset="1050">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="205" column="0" selection-start="8897" selection-end="8897" vertical-scroll-proportion="0.0" vertical-offset="2248" max-vertical-offset="3165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/go/mail/ru/DimensionConvertor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/go/mail/ru/ResultPageAfterGoMailRuSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="492" selection-end="492" vertical-scroll-proportion="0.49342105" vertical-offset="0" max-vertical-offset="1890">
+          <folding />
         </state>
       </provider>
     </entry>

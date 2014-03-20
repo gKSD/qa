@@ -36,7 +36,7 @@ public class SearchForm
 
     public  ResultPageAfterGoMailRuSearch clickSubmitButton()
     {
-        getSubmitButton().click();
+        getSubmitButton().submit();//.click();
         return new ResultPageAfterGoMailRuSearch(driver);
     }
 
