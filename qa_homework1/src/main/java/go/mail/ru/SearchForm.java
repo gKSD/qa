@@ -50,4 +50,16 @@ public class SearchForm
     {
         return this.clickSubmitButton();
     }
+
+
+    public WebElement getCleanButton()
+    {
+        return driver.findElement(By.id("go-form__qclear"));
+    }
+
+    //public ResultPageAfterGoMailRuSearch clickCleanButton() {
+    public void clickCleanButton() {
+        getCleanButton().click();
+        //return this;
+    }
 }
