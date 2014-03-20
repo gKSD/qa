@@ -28,11 +28,12 @@ public class DimensionConverterMix
     private WebDriver driver;
 
     @BeforeMethod
-    //@Parameters({"browser", "hub", "url"})
-    //public void setUp(String browser, String hub, String url) throws MalformedURLException {
+    @Parameters({"browser", "hub", "url"})
+    public void setUp(String browser, String hub, String url) throws MalformedURLException
+    {
     //@BeforeTest
-    public void setUp() {
-        /*if (browser.toLowerCase().equals("chrome"))
+    //public void setUp() {
+        if (browser.toLowerCase().equals("chrome"))
             this.driver = new RemoteWebDriver(new URL(hub), DesiredCapabilities.chrome());
         else if (browser.toLowerCase().equals("firefox"))
             this.driver = new RemoteWebDriver(new URL(hub), DesiredCapabilities.firefox());
@@ -40,16 +41,15 @@ public class DimensionConverterMix
             throw new NotImplementedException();
         this.driver.manage().window().maximize();
         this.driver.get(url);
-        */
 
-        driver = new FirefoxDriver();
-        driver.navigate().to("http://go.mail.ru");
-        //driver.get("http://go.mail.ru");
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
+        //driver = new FirefoxDriver();
+        //driver.navigate().to("http://go.mail.ru");
+        //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
 
-    /*@Test
+    @Test
     public void test1()
     //проверка на правильность заполнения  и отрабатывания подмеса при вводе данных в основной поисковиковой строке
     {
@@ -89,7 +89,7 @@ public class DimensionConverterMix
         DimensionConvertor dimensionConvertor = result.getDimensionConvertor();
 
         int val;
-        int n = 0; //можно поставить и больше
+        int n = 10; //можно поставить и больше
         //*************************************************************************************************************
         //если единицы --> {0, 1, 5, 6, 7, 8, 9} - килограмм, но если единицы числа --> {2, 3, 4} - килограмма
         for (int i = 0; i < n; i++)
@@ -212,9 +212,9 @@ public class DimensionConverterMix
         }
         //*************************************************************************************************************
     }
-    */
 
-    /*@Test
+
+    @Test
     public void test4()
     //проверка на ввод больших значений
     {
@@ -225,17 +225,15 @@ public class DimensionConverterMix
 
         dimensionConvertor.enterTextIntoMixInput("1000000");
 
-        System.out.println(dimensionConvertor.getMixOvalValue());
-
         String string = dimensionConvertor.getMixOvalValue();
         int index = string.indexOf("×");
-        System.out.println("**" + index + "**");
-        System.out.println("**" + string.charAt(index + 3) + "**");
-    }*/
 
-    /*@Test
+
+        Assert.assertEquals( string.charAt(index + 3), '6');
+    }
+
+    @Test
     public void test5()
-    //проверка на ввод больших значений
     {
         ResultPageAfterGoMailRuSearch result = new GoMailRuPage(this.driver).getSearchForm().runSearch("конвертер величин кг в фунты");
         DimensionConvertor dimensionConvertor = result.getDimensionConvertor();
@@ -249,9 +247,9 @@ public class DimensionConverterMix
         Assert.assertTrue(dimensionConvertor.getMixRightTypeValue().contains("килограмма"));
 
     }
-    */
 
-    /*@Test
+
+    @Test
     public void test6()
     //проверка на валидность данных, введенных в подмес
     {
@@ -272,7 +270,7 @@ public class DimensionConverterMix
 
         style = dimensionConvertor.getMixInputClass("color");
         Assert.assertEquals(style, "rgba(255, 0, 0, 1)");
-    }*/
+    }
 
     @Test
     public void test7()
@@ -281,11 +279,101 @@ public class DimensionConverterMix
         ResultPageAfterGoMailRuSearch result = new GoMailRuPage(this.driver).getSearchForm().runSearch("конвертер величин кг в фунты");
         DimensionConvertor dimensionConvertor = result.getDimensionConvertor();
 
-        String current = 
+        Assert.assertEquals(dimensionConvertor.getMixConverterSpanValue(),"вес");
 
         dimensionConvertor.changeDimensionType("length");
+        Assert.assertEquals(dimensionConvertor.getMixConverterSpanValue(), "длина");
 
-        //Assert.assertEquals(style, "rgba(255, 0, 0, 1)");
+        dimensionConvertor.changeDimensionType("information");
+        Assert.assertEquals(dimensionConvertor.getMixConverterSpanValue(),"объём информации"); 
+        dimensionConvertor.changeDimensionType("speed");
+        Assert.assertEquals(dimensionConvertor.getMixConverterSpanValue(),"скорость");
+
+        dimensionConvertor.changeDimensionType("time");
+        Assert.assertEquals(dimensionConvertor.getMixConverterSpanValue(),"время");
+
+        dimensionConvertor.changeDimensionType("power");
+        Assert.assertEquals(dimensionConvertor.getMixConverterSpanValue(),"мощность");
+
+        dimensionConvertor.changeDimensionType("energy");
+        Assert.assertEquals(dimensionConvertor.getMixConverterSpanValue(),"энергия");
+
+        dimensionConvertor.changeDimensionType("temp");
+        Assert.assertEquals(dimensionConvertor.getMixConverterSpanValue(),"температура");
+
+        dimensionConvertor.changeDimensionType("volume");
+        Assert.assertEquals(dimensionConvertor.getMixConverterSpanValue(),"объём");
+
+        dimensionConvertor.changeDimensionType("square");
+        Assert.assertEquals(dimensionConvertor.getMixConverterSpanValue(),"площадь");
+
+        dimensionConvertor.changeDimensionType("pressure");
+        Assert.assertEquals(dimensionConvertor.getMixConverterSpanValue(),"давление");
+    }
+
+    @Test
+    public void test8()
+    //проверка на валидность данных, введенных в подмес
+    {
+        ResultPageAfterGoMailRuSearch result = new GoMailRuPage(this.driver).getSearchForm().runSearch("конвертер величин кг в фунты");
+        DimensionConvertor dimensionConvertor = result.getDimensionConvertor();
+
+        dimensionConvertor.changetMixLeftType("2");
+        Assert.assertEquals(dimensionConvertor.getMixLeftTypeValue(), "грамм");
+
+        dimensionConvertor.changetMixLeftType("1");
+        Assert.assertEquals(dimensionConvertor.getMixLeftTypeValue(), "карат");
+
+        dimensionConvertor.changetMixLeftType("3");
+        Assert.assertEquals(dimensionConvertor.getMixLeftTypeValue(), "унция");
+
+        dimensionConvertor.changetMixLeftType("4");
+        Assert.assertEquals(dimensionConvertor.getMixLeftTypeValue(), "тройская унция");
+
+        dimensionConvertor.changetMixLeftType("5");
+        Assert.assertEquals(dimensionConvertor.getMixLeftTypeValue(), "фунт");
+
+        dimensionConvertor.changetMixLeftType("6");
+        Assert.assertEquals(dimensionConvertor.getMixLeftTypeValue(), "килограмм");
+
+        dimensionConvertor.changetMixLeftType("7");
+        Assert.assertEquals(dimensionConvertor.getMixLeftTypeValue(), "пуд");
+        dimensionConvertor.changetMixLeftType("8");
+        Assert.assertEquals(dimensionConvertor.getMixLeftTypeValue(), "центнер");
+        dimensionConvertor.changetMixLeftType("9");
+        Assert.assertEquals(dimensionConvertor.getMixLeftTypeValue(), "тонна");
+
+
+        SearchForm searchForm = new SearchForm(driver);
+        result.cleanSearchInput(searchForm);
+        result.runSearch(searchForm, "конвертер величин фунты в кг");
+
+
+        dimensionConvertor.changetMixRightType("2");
+        Assert.assertEquals(dimensionConvertor.getMixRightTypeValue(), "грамма");
+
+        dimensionConvertor.changetMixRightType("1");
+        Assert.assertEquals(dimensionConvertor.getMixRightTypeValue(), "карата");
+
+        dimensionConvertor.changetMixRightType("3");
+        Assert.assertEquals(dimensionConvertor.getMixRightTypeValue(), "унций");
+
+        dimensionConvertor.changetMixRightType("4");
+        Assert.assertEquals(dimensionConvertor.getMixRightTypeValue(), "тройской унции");
+
+        dimensionConvertor.changetMixRightType("5");
+        Assert.assertEquals(dimensionConvertor.getMixRightTypeValue(), "фунт");
+
+        dimensionConvertor.changetMixRightType("6");
+        Assert.assertEquals(dimensionConvertor.getMixRightTypeValue(), "килограмма");
+
+        dimensionConvertor.changetMixRightType("7");
+        Assert.assertEquals(dimensionConvertor.getMixRightTypeValue(), "пуда");
+        dimensionConvertor.changetMixRightType("8");
+        Assert.assertEquals(dimensionConvertor.getMixRightTypeValue(), "центнера");
+        dimensionConvertor.changetMixRightType("9");
+        Assert.assertEquals(dimensionConvertor.getMixRightTypeValue(), "тонны");
+
     }
 
     //@AfterTest

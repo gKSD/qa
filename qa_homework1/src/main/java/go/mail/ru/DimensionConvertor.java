@@ -123,4 +123,18 @@ public class DimensionConvertor {
         driver.findElement(By.cssSelector("#measureSelector li[data-measure=" + type + "] span")).click();
         return this;
     }
+
+    public DimensionConvertor changetMixLeftType(String type)
+    {
+        driver.findElement(By.cssSelector("#icode")).click();
+        driver.findElement(By.cssSelector("span[data-code='" + type + "']")).click();
+        return this;
+    }
+
+    public DimensionConvertor changetMixRightType(String type)
+    {
+        driver.findElement(By.cssSelector("#ocode")).click();
+        driver.findElement(By.cssSelector("#change_conv~.smack-converter__select span[data-code='" + type + "']")).click();
+        return this;
+    }
 }
